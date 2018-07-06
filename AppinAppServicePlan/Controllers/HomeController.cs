@@ -12,7 +12,7 @@ namespace AppinAppServicePlan.Controllers
     {
         public IActionResult Index()
         {
-            System.Diagnostics.Trace.Write("Apllication is in Home Controller Index() method");
+            System.Diagnostics.Trace.TraceInformation("Apllication is in Home Controller Index() method");
             return View();
         }
 
